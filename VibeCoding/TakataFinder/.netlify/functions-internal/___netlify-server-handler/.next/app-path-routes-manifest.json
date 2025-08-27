@@ -1,0 +1,9 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/api/check/route": "/api/check",
+  "/faq/page": "/faq",
+  "/favicon.ico/route": "/favicon.ico",
+  "/legal/privacy/page": "/legal/privacy",
+  "/page": "/",
+  "/vehicules-concernes/page": "/vehicules-concernes"
+}

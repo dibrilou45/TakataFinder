@@ -260,6 +260,22 @@ export default function FAQ() {
           </div>
         </div>
       </footer>
+
+      {/* Bandeau promotionnel Windsurf */}
+      <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-3 px-4 text-center">
+        <p className="text-sm md:text-base">
+          🚀 Ce site a été généré sans coder grâce à <strong>Windsurf</strong> ! 
+          Découvre comment créer tes propres applications IA sur{' '}
+          <a 
+            href="https://windsurfvibes.io" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="underline hover:text-blue-200 font-semibold"
+          >
+            windsurfvibes.io
+          </a>
+        </p>
+      </div>
     </div>
-  );
+  )
 }

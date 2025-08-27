@@ -1,0 +1,66 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/ff1a16fafef87110.js",
+      "static/chunks/7dd66bdf8a7e5707.js",
+      "static/chunks/6260c6cc593e5549.css",
+      "static/chunks/c85a7d07e7b82c9a.js",
+      "static/chunks/5564f493499345f1.js",
+      "static/chunks/63dba52cde864d84.js",
+      "static/chunks/8082ab48faca5ea1.js",
+      "static/chunks/turbopack-933205662f0a709e.js"
+    ],
+    "/faq/page": [
+      "static/chunks/ff1a16fafef87110.js",
+      "static/chunks/7dd66bdf8a7e5707.js",
+      "static/chunks/6260c6cc593e5549.css",
+      "static/chunks/52a74bb283097e65.js",
+      "static/chunks/d0dea7c1872102cb.js",
+      "static/chunks/110ad54170cc4846.js",
+      "static/chunks/c85a7d07e7b82c9a.js",
+      "static/chunks/5564f493499345f1.js",
+      "static/chunks/63dba52cde864d84.js",
+      "static/chunks/8082ab48faca5ea1.js",
+      "static/chunks/turbopack-933205662f0a709e.js"
+    ],
+    "/legal/privacy/page": [
+      "static/chunks/ff1a16fafef87110.js",
+      "static/chunks/7dd66bdf8a7e5707.js",
+      "static/chunks/6260c6cc593e5549.css",
+      "static/chunks/bcb9303d8e642b27.js",
+      "static/chunks/d0dea7c1872102cb.js",
+      "static/chunks/c85a7d07e7b82c9a.js",
+      "static/chunks/5564f493499345f1.js",
+      "static/chunks/63dba52cde864d84.js",
+      "static/chunks/8082ab48faca5ea1.js",
+      "static/chunks/turbopack-933205662f0a709e.js"
+    ],
+    "/page": [
+      "static/chunks/ff1a16fafef87110.js",
+      "static/chunks/7dd66bdf8a7e5707.js",
+      "static/chunks/6260c6cc593e5549.css",
+      "static/chunks/3a54ed715ee8e678.js",
+      "static/chunks/b842c951e5068659.js",
+      "static/chunks/d0dea7c1872102cb.js",
+      "static/chunks/0b55b61e331b386b.js",
+      "static/chunks/c85a7d07e7b82c9a.js",
+      "static/chunks/5564f493499345f1.js",
+      "static/chunks/63dba52cde864d84.js",
+      "static/chunks/8082ab48faca5ea1.js",
+      "static/chunks/turbopack-933205662f0a709e.js"
+    ],
+    "/vehicules-concernes/page": [
+      "static/chunks/ff1a16fafef87110.js",
+      "static/chunks/7dd66bdf8a7e5707.js",
+      "static/chunks/6260c6cc593e5549.css",
+      "static/chunks/02c8f4c892f5541a.js",
+      "static/chunks/ba7b97d2a3a23145.js",
+      "static/chunks/e68c4d1293cb9d39.js",
+      "static/chunks/c85a7d07e7b82c9a.js",
+      "static/chunks/5564f493499345f1.js",
+      "static/chunks/63dba52cde864d84.js",
+      "static/chunks/8082ab48faca5ea1.js",
+      "static/chunks/turbopack-933205662f0a709e.js"
+    ]
+  }
+}
