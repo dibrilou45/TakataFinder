@@ -7,20 +7,43 @@ import { Shield, ArrowLeft } from 'lucide-react';
 export default function Privacy() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+      {/* Bandeau promotionnel Windsurf */}
+      <div className="bg-teal-600 text-white py-3 px-4 text-center">
+        <p className="text-sm md:text-base">
+          🚀 Ce site a été généré sans coder grâce à <strong>Windsurf</strong> ! 
+          Découvre comment créer tes propres applications IA sur{' '}
+          <a 
+            href="https://windsurfvibes.io" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="underline hover:text-teal-200 font-semibold"
+          >
+            windsurfvibes.io
+          </a>
+        </p>
+      </div>
+
       {/* Header */}
-      <header className="bg-white shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <header className="bg-white shadow-sm border-b">
+        <div className="max-w-4xl mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <Shield className="h-8 w-8 text-blue-600" />
-              <h1 className="text-2xl font-bold text-gray-900">TakataFinder</h1>
-            </div>
-            <nav className="flex space-x-4">
-              <Link href="/" className="text-gray-600 hover:text-gray-900">
-                Accueil
+              <Link href="/" className="flex items-center space-x-3 hover:opacity-80">
+                <div className="w-8 h-8 bg-red-600 rounded-full flex items-center justify-center">
+                  <span className="text-white font-bold text-sm">T</span>
+                </div>
+                <h1 className="text-xl font-bold text-gray-900">TakataFinder</h1>
               </Link>
-              <Link href="/faq" className="text-gray-600 hover:text-gray-900">
+            </div>
+            <nav className="flex space-x-6">
+              <Link href="/vehicules-concernes" className="text-sm text-gray-600 hover:text-gray-900">
+                Véhicules concernés
+              </Link>
+              <Link href="/faq" className="text-sm text-gray-600 hover:text-gray-900">
                 FAQ
+              </Link>
+              <Link href="/" className="text-sm text-gray-600 hover:text-gray-900">
+                Accueil
               </Link>
             </nav>
           </div>
@@ -183,21 +206,6 @@ export default function Privacy() {
         </div>
       </footer>
 
-      {/* Bandeau promotionnel Windsurf */}
-      <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-3 px-4 text-center">
-        <p className="text-sm md:text-base">
-          🚀 Ce site a été généré sans coder grâce à <strong>Windsurf</strong> ! 
-          Découvre comment créer tes propres applications IA sur{' '}
-          <a 
-            href="https://windsurfvibes.io" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="underline hover:text-blue-200 font-semibold"
-          >
-            windsurfvibes.io
-          </a>
-        </p>
-      </div>
     </div>
   )
 }
